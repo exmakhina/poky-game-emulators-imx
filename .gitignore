@@ -2,6 +2,8 @@
 *.pyo
 /*.patch
 build*/
+!build/conf/local.conf
+!build/conf/bblayers.conf
 pyshtables.py
 pstage/
 scripts/oe-git-proxy-socks
@@ -9,6 +11,11 @@ sources/
 meta-*/
 !meta-skeleton
 !meta-selftest
+!meta-fsl-arm
+!meta-kodi
+!meta-game-emulators
+!meta-openembedded
+!meta-solidrun-arm-imx6
 hob-image-*.bb
 *.swp
 *.orig
