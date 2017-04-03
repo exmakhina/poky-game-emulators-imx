@@ -1,9 +1,8 @@
 *.pyc
 *.pyo
 /*.patch
-build*/
-!build/conf/local.conf
-!build/conf/bblayers.conf
+build/*
+!build/conf
 pyshtables.py
 pstage/
 scripts/oe-git-proxy-socks
