@@ -6,7 +6,7 @@
 	url = https://github.com/exmakhina/meta-game-emulators.git
 [submodule "meta-kodi"]
 	path = meta-kodi
-	url = https://github.com/koenkooi/meta-kodi.git
+	url = https://github.com/exmakhina/meta-kodi.git
 [submodule "meta-openembedded"]
 	path = meta-openembedded
 	url = git://git.openembedded.org/meta-openembedded
