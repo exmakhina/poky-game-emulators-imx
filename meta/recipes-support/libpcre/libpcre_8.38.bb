@@ -31,6 +31,7 @@ EXTRA_OECONF = "\
     --enable-newline-is-lf \
     --enable-rebuild-chartables \
     --enable-utf8 \
+    --enable-unicode-properties \
     --with-link-size=2 \
     --with-match-limit=10000000 \
 "
